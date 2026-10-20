@@ -1,0 +1,10 @@
+node_modules/
+build/
+*.zip
+.zapierapprc
+.env
+.environment
+coverage/
+.DS_Store
+.secrets/
+SUBMISSION.md
