@@ -15,7 +15,7 @@ const createSite = makeCreate({
   sampleKey: 'site',
   fields: inputFields('sites_create', {
     override: {
-      domain: { helpText: 'The domain to track, like example.com. A pasted address such as https://www.example.com/pricing is shortened to example.com.' },
+      domain: { helpText: 'The domain to track, like example.com. A pasted address such as `https://www.example.com/pricing` is shortened to example.com.' },
     },
   }),
   prepare: async (z, bundle) => ({ ...bundle.inputData, domain: normalizeDomain(bundle.inputData.domain) }),
