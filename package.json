@@ -1,5 +1,5 @@
 {
-  "name": "@privatus/zapier",
+  "name": "@privatus-analytics/zapier",
   "version": "1.0.0",
   "description": "Privatus Analytics integration for Zapier: 25 instant triggers from signed webhooks, actions and searches for analytics, uptime, experiments and testimonials.",
   "main": "index.js",
